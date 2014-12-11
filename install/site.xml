@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description>
+      JIRA312
+   </description>
+   <feature url="features/org.jiar_1.0.0.201301121953.jar" id="org.jiar" version="1.0.0.201301121953">
+      <category name="JIRA312"/>
+   </feature>
+   <category-def name="JIRA312" label="JIRA312"/>
+</site>

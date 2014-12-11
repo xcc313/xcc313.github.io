@@ -1,0 +1,84 @@
+* {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+body{
+    min-height:600px;
+    min-width:1280px;
+	overflow-y:hidden;
+}
+iframe{
+    height:100%;
+    width:100%;
+    background:#FFF;
+    position:relative;
+    border-radius:12px;
+    overflow:hidden;
+}
+#caver_layer{
+    height:100%;
+	min-width:1280px;
+    width:100%;
+    position:absolute;
+    left:0px;
+    top:0px;
+    background-color:#4d4d4d;
+    opacity:0.7;
+        z-index:100;
+}
+#slide{
+    position:absolute;
+    top:75%;
+    width:52%;
+    left:24%;
+    height:86px;
+    border-radius:18px;
+	border:1px solid gray;
+    border-bottom:1px groovy gray;
+    z-index:101;
+	background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #2F368F),color-stop(1, #77D1F6)); 
+    opacity:0.9;
+}
+#slider{
+    float:left;
+    position:relative;
+	cursor:pointer;
+    height:44px;
+    background: url(../images/arrow.png) no-repeat;
+    border-radius:16px;
+	margin:-5px;
+    text-align:center;
+    width: 146px;
+    height: 98px;
+}
+#pointer{
+    float:left;
+    position:relative;
+    line-height: 1;
+    vertical-align: middle;
+    top:14px;
+    left:40%;
+}
+#text{
+    height:50px;
+    width:70%;
+    float:left;
+    padding-top:14px;
+    font-family:"Î¢ÈíÑÅºÚ";
+    font-size:44px;
+    font-weight:100;
+    text-align:center;
+    vertical-align: middle;
+	background: -webkit-gradient(linear,left top,right top,color-stop(0, #4d4d4d),color-stop(0.4, #4d4d4d),color-stop(0.5, white),color-stop(0.6, #4d4d4d),color-stop(1, #4d4d4d)); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: slidetounlock 5s infinite;
+	-webkit-text-size-adjust: none;
+}
+@-webkit-keyframes slidetounlock {
+	0% {background-position: -200px 0;}
+	100%{background-position: 200px 0;}
+}
